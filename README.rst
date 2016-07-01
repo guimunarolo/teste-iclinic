@@ -34,6 +34,9 @@ Run:
     $ python manage.py runserver 0:8000
 
 
+Requests:
+=========
+
 Inlcusion:
 
 .. code:: sh
