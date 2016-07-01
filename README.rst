@@ -51,15 +51,15 @@ List:
     $ curl http://localhost:8000/zipcode/
 
 
-Exclusion:
-
-.. code:: sh
-
-    $ curl -X DELETE http://localhost:8000/zipcode/14020260/
-
-
 Detail:
 
 .. code:: sh
 
     $ curl http://localhost:8000/zipcode/14020260/
+
+
+Exclusion:
+
+.. code:: sh
+
+    $ curl -X DELETE http://localhost:8000/zipcode/14020260/
