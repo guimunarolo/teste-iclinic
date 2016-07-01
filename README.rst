@@ -8,7 +8,7 @@ Features
 ========
 * Python 2.7
 * Django 1.7.11
-* Coverage 89%
+* Coverage 100%
 
 How to run?
 ===========

@@ -33,6 +33,10 @@ class ZipCodeResourceTest(TestCase):
         response = self.client.delete("/zipcode/14025180/")
         self.assertEqual(response.status_code, 204)
 
-    def test_05_zipcode_bad_request(self):
+    def test_05_zipcode_not_found(self):
         response = self.client.delete("/zipcode/00000000/")
         self.assertEqual(response.status_code, 404)
+
+    def test_06_zipcode_bad_request(self):
+        response = self.client.get("/zipcode/1402178/")
+        self.assertEqual(response.status_code, 400)
