@@ -20,6 +20,13 @@ Install dependences:
     $ pip install -r requirements.txt
 
 
+Migrate:
+
+.. code:: sh
+
+    $ python manage.py migrate
+
+
 Run:
 
 .. code:: sh
